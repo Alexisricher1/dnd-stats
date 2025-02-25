@@ -10,7 +10,8 @@ import re
 
 
 # Create an engine
-engine = create_engine('sqlite:///C:/Users/Alexis/Documents/DND/ROLL20_DB.db', echo=True)  # Change the database URL as needed
+#sqlite:///C:/Users/Alexis/Documents/DND/ROLL20_DB.db
+engine = create_engine('sqlite:///./ROLL20_DB.db', echo=True)  # Change the database URL as needed
 
 # Create a base class for declarative class definitions
 Base = declarative_base()
